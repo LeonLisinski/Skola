@@ -64,7 +64,7 @@ namespace Skola
 
         private string GetConnectionString()
         {
-            var server = "ILISINSKI2";
+            var server = "LISINSKI\\SQL2022";
             string database = "Skola";
 
             string connection = String.Format("data source={0};initial catalog={1};Integrated Security=SSPI", server, database);
